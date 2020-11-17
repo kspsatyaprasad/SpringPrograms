@@ -11,5 +11,7 @@
 
 <!-- <bean id="vehicle" class= "com.SpringPrograms.BasicPrograms.Bike"> </bean>
  -->
-
+     <bean id="tyre" class= "com.SpringPrograms.BasicPrograms.Tyre"> 
+          <property name="brand" value="MRF"> </property>
+     </bean>
 </beans>
