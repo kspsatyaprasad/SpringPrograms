@@ -11,4 +11,9 @@ public class AppConfig
      {
     	 return new Samsung();
      }
+	@Bean
+    public MobileProcessor getProcessor()
+    {
+   	 return new Snapdragon();
+    }
 }
