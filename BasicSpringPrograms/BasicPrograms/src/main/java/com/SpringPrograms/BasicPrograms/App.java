@@ -3,7 +3,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        Bike bike = new Bike();
-        bike.drive();
+        Vehicle obj = new Bike();
+        obj.drive();
     }
 }
