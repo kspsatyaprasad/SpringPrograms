@@ -1,13 +1,9 @@
 package com.SpringPrograms.BasicPrograms;
-
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Car car = new Car();
+        car.drive();
     }
 }
